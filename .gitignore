@@ -1,0 +1,32 @@
+# Python caches and compiled artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Local environments and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*secret*
+*credential*
+*token*
+
+# Logs and generated outputs
+*.log
+output/
+outputs/
+tmp/
+temp/
+build/
+dist/
+.cache/
+
+# Local editor and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
